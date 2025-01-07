@@ -1,0 +1,104 @@
+body {
+    font-family: "Noto Sans", serif;
+    background-color: #f1ebe1;
+    margin: 20px;
+}
+
+#info-table {
+    display: flex;
+    align-items: center;
+}
+
+.product-img {
+    width: 350px;
+    height: 350px;
+}
+
+.about-img {
+    height: 200px;
+    width: 200px;
+    border: 5px solid #fffff4;
+    border-radius: 5px;
+}
+
+.product-cell {
+    align-items: center;
+    justify-content: center; 
+    min-width: 400px;
+    max-width: 400px;
+}
+
+.master {
+    display: flex;
+
+}
+.info-td {
+    align-items: start;
+
+}
+
+.row-item {
+    display: flex;
+    justify-content: space-around;
+    border: 10px solid #c0cfb2; 
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+img {
+    margin: 10px;
+}
+
+button {
+    padding: 7px 13px;
+}
+.info-words {
+    max-width: 500px;
+    
+}
+
+.contact {
+    background-color: #fffff4;
+    padding: 50px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.master-contact {
+    display: flex;
+    justify-content: space-between;
+}
+
+.row-item {
+    display: flex;
+}
+
+#message {
+    height: fit-content;
+    text-align: left; /* Align placeholder text to the left */
+    vertical-align: top; /* Ensure placeholder aligns to the top */
+}
+
+#contact-info {
+    max-width: 50%;
+    background-color: #c0cfb2;
+    border-radius: 10px;
+    padding: 15px;
+    margin-top: 10px;
+    margin-right: 10px;
+    border: 2px solid #fffff4;
+}
+
+#form {
+    display: inline;
+    width: 40%;
+
+}
+
+input, textarea{
+    width: 70%;
+}
+
+
+/* how to get space between table columns  */
