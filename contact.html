@@ -8,6 +8,43 @@
         <title>Contact Us</title>
     </head>
     <body>
+        <!--Nav Bar that stays top of page-->
+        <div id="nav-container">
+            <!--logo that takes to home page and add number M: ____ underneath-->
+            <div id="nav-logo">
+                <a href="./index.html">
+                    <img id="nav-img" src="images/logo_zoomed.png">
+                </a>
+                <div id="nav-contacts">
+                    <p>M: 0412 345 678</p>
+                    <p>E: elonmusk@hotmail.com</p>
+                    <p>A: 10 Downing Street, London, England</p>
+                </div>
+                
+            </div>
+            <!--link to each page; home, about, contact, products-->
+            <div id="nav-buttons">
+                <div class="nav-btn">
+                    <p><a href="./index.html">Home</a></p>
+                </div>
+                <div class="nav-btn">
+                    <p><a href="./about.html">About</a></p>
+                </div>
+                <div class="nav-btn">
+                    <p><a href="./contact.html">Contact</a></p>
+                </div>
+                <div class="nav-btn" id="product-btn">
+                    <p><a href="./products.html">Products</a></p> 
+                    <!--products dropdown for each of the type of products that scrolls to that part-->
+                    <!--how to do scrolls & how to make hidden-->
+                    <div id="dropdown">
+                        <a href="./products.html" onclick="openPageWithScroll()">Blends</a>
+                        <a href="./products.html">Spritz</a>
+                        <a href="./products.html">Quick Boosts</a>
+                    </div>
+                </div> 
+            </div>  
+        </div>
         <h2>Contact Us</h2>
         <div class="master-contact">
             <div id="contact-info"> 
@@ -28,6 +65,7 @@
                 <input type="Email" id="email" name="email" placeholder="joe@gmail.com"><br>
                 <p>Message: </p>
                 <textarea rows="4" name="message"></textarea><br>
+                <button id="submit-button" type="button">Submit</a></button>
 
             </div>
         </div>

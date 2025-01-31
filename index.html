@@ -8,7 +8,46 @@
         <title>LazOne</title>
     </head>
     <body>
-        <h1>LazOne</h1>
+        <!--Nav Bar that stays top of page-->
+        <div id="nav-container">
+            <!--logo that takes to home page and add number M: ____ underneath-->
+            <div id="nav-logo">
+                <a href="./index.html">
+                    <img id="nav-img" src="images/logo_zoomed.png">
+                </a>
+                <div id="nav-contacts">
+                    <p>M: 0412 345 678</p>
+                    <p>E: elonmusk@hotmail.com</p>
+                    <p>A: 10 Downing Street, London, England</p>
+                </div>
+                
+            </div>
+            <!--link to each page; home, about, contact, products-->
+            <div id="nav-buttons">
+                <div class="nav-btn">
+                    <p><a href="./index.html">Home</a></p>
+                </div>
+                <div class="nav-btn">
+                    <p><a href="./about.html">About</a></p>
+                </div>
+                <div class="nav-btn">
+                    <p><a href="./contact.html">Contact</a></p>
+                </div>
+                <div class="nav-btn" id="product-btn">
+                    <p><a href="./products.html">Products</a></p> 
+                    <!--products dropdown for each of the type of products that scrolls to that part-->
+                    <!--how to do scrolls & how to make hidden-->
+                    <div id="dropdown">
+                        <a href="./products.html" onclick="openPageWithScroll()">Blends</a>
+                        <a href="./products.html">Spritz</a>
+                        <a href="./products.html">Quick Boosts</a>
+                    </div>
+                </div> 
+            </div>  
+        </div>
+
+        <!--Body-->
+        <h1>Home</h1>
         <div class="master">
             <table id="info-table">
                 <tr>
@@ -44,7 +83,7 @@
                 <p>Phone: 0412 345 678</p>
                 <p>Address: 10 Downing Street, London, England</p>
                 <p>Email: elonmusk@hotmail.com</p>
-                <button type="button"><a href="./about.html">Contact Us</a></button>
+                <button type="button"><a href="./contact.html">Contact Us</a></button>
             </div>
         </div>
     </body>
